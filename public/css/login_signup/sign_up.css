@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Cài đặt thông số chung */
+
+
+/* Chỉnh sửa  */
+
+.sign-up {
+    animation-name: show;
+    animation-duration: 2s;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand .image {
+    height: 3rem;
+    width: 10rem;
+}
+
+.spotify-btn {
+    background-color: rgb(30, 215, 96);
+    border: rgb(30, 215, 96);
+    color: black;
+    text-decoration: none;
+}
+
+.spotify-btn:hover {}
+
+
+/*  */
+
+
+/* Chỉnh sửa cho cách thức đăng nhập */
+
+.login_way {}

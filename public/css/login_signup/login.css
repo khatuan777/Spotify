@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Cài đặt thông số chung */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    border-radius: 500px;
+}
+
+
+/* Chỉnh sửa  */
+
+.login {
+    animation-name: show;
+    animation-duration: 2s;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.brand .image {
+    height: 3rem;
+    width: 10rem;
+}
+
+.spotify-btn {
+    background-color: rgb(30, 215, 96);
+    border: rgb(30, 215, 96);
+    color: black;
+    text-decoration: none;
+}
+
+.spotify-btn:hover {}
+
+
+/* Animation */
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*  */
+
+
+/* Chỉnh sửa cho cách thức đăng nhập */
+
+.login_way {}

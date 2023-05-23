@@ -1,0 +1,12 @@
+:root {
+    --bg: #0b0a0a;
+    --icon: hsla(0, 0%, 100%, 0.7);
+    --heart: linear-gradient(135deg, #450af5, #c4efd9);
+    --bc: rgb(83, 83, 83);
+    --ba: #a7a7a7;
+    --background-base: #121212;
+    --back: linear-gradient(rgba(0, 0, 0, .8), var(--background-base) 100%);
+    --sl: 6;
+    --sl_sm: 2;
+    --lyric: #b3b3b3;
+}
