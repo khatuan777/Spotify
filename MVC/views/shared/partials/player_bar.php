@@ -1,18 +1,10 @@
-<?php
-
-$arr = [];
-
-?>
-
 <div class="player_bar fixed-bottom bg px-2">
     <div class='col-2 d-flex'>
         <div style='height:56px;width:56px'>
             <img id="img" src='<?php echo $_GET['img'] ?>' alt="">
         </div>
         <div>
-            <span id='songName'></span>
-            <?php echo $_GET['songName'] ?>
-            </span>
+            <span id='songName'> <?php echo $_GET['songName'] ?></span>
             <br>
             <span id='music'> <?php echo $_GET['artist'] ?></span>
         </div>

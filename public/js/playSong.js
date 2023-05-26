@@ -1,12 +1,18 @@
+if ($('#img').attr('src') != null) {
+    localStorage.setItem('img', $('#img').attr('src'));
+    localStorage.setItem('songName', $('#songName').text());
+    localStorage.setItem('artist', $('#artist').text());
+    localStorage.setItem('link', $('#link').text());
+}
 $(document).ready(function() {
     $.ajax({
         type: 'get',
         url: "./MVC/views/shared/partials/player_bar.php",
         data: {
-            img: $('#img').attr('src'),
-            songName: $('#songName').text(),
-            artist: $('#artist').text(),
-            link: $('#link').text()
+            img: localStorage.getItem('img'),
+            songName: localStorage.getItem('songName'),
+            artist: localStorage.getItem('artist'),
+            link: localStorage.getItem('link')
                 // $('#link').text()
         },
         success: function(response, status, request) {
